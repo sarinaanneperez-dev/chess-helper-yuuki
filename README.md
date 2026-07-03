@@ -17,7 +17,7 @@
 - As mentioned before, it sents out Queen early for aggressions.   
 - Among all the 20 games, it only castled once, a Long Castle.   
 - Win/Draw/Lose (14/1/6)   
-- ELO Testing = ~1700
+- Opponent's ELO Testing = ~1700
 
 **Openings it played**   
 - Scandinavian Defense Mieses Kotrc Variation (7 Games)   
