@@ -108,8 +108,6 @@ The engine favors chaotic, early-game aggression and gambits:
 
 ## ⚠️ Disclaimer
 
-## ⚠️ Disclaimer
-
 **Please Read Carefully:**
 Using bots, engines, or any form of external assistance on Chess.com strictly violates their [Terms of Service and Fair Play policy](https://www.chess.com/cheating). 
 
