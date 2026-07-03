@@ -1,6 +1,6 @@
 # 🎀 Yuuki: Chess.com Auto-Player & Analyzer
 
-**Yuuki** is a fully client-side, beautifully crafted chess assistant for [Chess.com](https://www.chess.com). Powered by the local **Yuuki Engine** and wrapped in a soft, pastel "Coquette" aesthetic, Yuuki provides 100% offline analysis and human-like auto-play without ever leaving the browser.
+**Yuuki** is a fully client-side, beautifully crafted chess assistant for [Chess.com](https://www.chess.com). Powered by the local **Yuuki Engine** and wrapped in a soft, pastel "Coquette" aesthetic with animated physics, human-like mouse movements, and tactical chaos. Built entirely in JavaScript with a Web Worker engine, zero latency, and complete privacy.
 
 ---
 
@@ -29,7 +29,7 @@ Under the hood, Yuuki runs a highly tuned "Swindler" configuration designed to m
 
 ## 📊 50-Game Testing Results (Anonymous)
 
-Over a rigorous 50-game testing period (Rapid 10|0), the "Swindler" preset proved its ability to mimic human inconsistency, tactical aggression, and statistical camouflage. All opponent data has been anonymized.
+Over a rigorous 50-game testing period (Rapid 10|0), the "Swindler" preset proved its ability to mimic human inconsistency, tactical aggression, and statistical camouflage. All opponent data has been anonymized. The engine demonstrated sophisticated tactical play, realistic time management, and even human-like psychological errors (like neglecting king safety).
 
 ### 🏆 Overall Performance
 *   **Win/Draw/Loss:** 37W / 2D / 11L (74.0% win rate)
@@ -66,6 +66,8 @@ The engine favors chaotic, early-game aggression and gambits:
 
 ## 🖼️ UI Showcase
 
+![UI Showcase](src/UI%20Showcase.png)
+
 *   **The Bubble ♡:** A 54px soft pink gradient circle containing a custom white SVG bow. It tilts cutely on hover and slides with realistic inertia physics.
 *   **The Panel ✧:** A pillowy, white panel with a dashed pink border, 28px rounded corners, and a subtle polka-dot background. 
 *   **The Arrows 💖:** Soft Sakura Pink dotted lines with a cute little heart-shaped SVG marker (`#FF9EBB`) at the destination square instead of a standard dot.
@@ -88,7 +90,7 @@ The engine favors chaotic, early-game aggression and gambits:
 
 *   **The Bubble ♡**: You will see a cute pink bow floating on your screen. You can drag it around, and it will slide with realistic inertia physics.
 *   **The Panel ✧**: Click the bubble to open the soft, pillowy control panel.
-*   **Auto-Play ♡**: Toggle the switch to let Yuuki take over. It will automatically detect when it's your turn, "think" for a randomized amount of time, and make the move using simulated human input.
+*   **Auto-Play ♡**: Toggle the switch to let Yuuki take over. It will automatically detect when it's your turn, "think" for a randomized amount of time, and make the move using simulated human-like mouse movements (Bézier curves, jitter, delays).
 *   **Auto Next Game 🔄**: Toggle this to let Yuuki automatically queue the next match when a game ends, perfect for long endurance testing sessions.
 *   **Ask Yuuki ✨**: Click the gradient button to analyze the current position. Yuuki will draw a soft pastel arrow with a heart showing the best move without actually playing it.
 
@@ -119,4 +121,10 @@ The engine favors chaotic, early-game aggression and gambits:
 **Please Read Carefully:**
 Using bots, engines, or any form of external assistance on Chess.com strictly violates their [Terms of Service and Fair Play policy](https://www.chess.com/cheating). 
 
-This project is created strictly for **educational and entertainment purposes**—specifically to explore JavaScript chess engine development, Web Worker communication, creative UI/UX design, and the boundaries of human-like telemetry simulation. Please do not use this to cheat in rated games.
+This project is created strictly for **educational and entertainment purposes**—specifically to explore JavaScript chess engine development, Web Worker communication, creative UI/UX design, and the technical architecture behind chess engines. It is **not intended for use** in actual Chess.com games.
+
+The creators assume no responsibility for misuse. By using this extension, you agree to use it responsibly and in compliance with Chess.com's terms.
+
+---
+
+**Made with 🎀 and chess passion.**
