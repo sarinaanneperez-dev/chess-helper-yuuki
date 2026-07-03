@@ -5,7 +5,7 @@
 ## ✨ Features
 
 *   🤖 **Fully Local Engine**: Powered by **Yuuki**, a custom JavaScript chess engine running entirely in a Web Worker. No external API calls, no latency, and completely offline.
-*   🖱️ **Human-like Auto-Play**: Simulates realistic mouse movements (with slight Bézier curves, random delays, and jitter) to play moves automatically on the board. Plus: Human-like decisions, designed carefully using Eryx's Swindler Preset. Move Accuracy: 81.4% (Low for engines, Standard for humans)   
+*   🖱️ **Human-like Auto-Play**: Simulates realistic mouse movements (with slight Bézier curves, random delays, and jitter) to play moves automatically on the board. Plus: Human-like decisions, designed carefully using Eryx/RJ's Swindler Preset. Move Accuracy: 81.4% (Low for engines, Standard for humans)   
 *   💖 **Move Visualization**: "Ask Yuuki" for the best move and see it visualized with soft dotted arrows and a cute heart on the target square.   
 
 ## Engine Behavior (Under the 21-game testing)
@@ -46,7 +46,7 @@
 ## 👑 Credits & Authors
 
 *   **Extension, UI & Integration**: Developed by **Anne** 🎀
-*   **Yuuki Chess Engine**: Developed by **Eryx** ♟️ 
+*   **Yuuki Chess Engine**: Developed by **Eryx/RJ** ♟️ 
     *   Repository: [github.com/yuuki-chess-engine](https://github.com/eryxveilen/yuuki-chess-engine)
     *   *Note: The engine utilized in this extension is the JavaScript counterpart of Eryx's original Yuuki engine.*
 
