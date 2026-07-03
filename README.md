@@ -1,6 +1,6 @@
 # 🎀 Yuuki: Chess.com Auto-Player & Analyzer
 
-**Yuuki** is a Chrome extension that plays and analyzes chess on [Chess.com](https://www.chess.com) using a custom, fully client-side JavaScript chess engine. Wrapped in a beautiful, soft pastel "coquette" UI, Yuuki provides a delightful visual experience while delivering strong, local engine analysis.
+**Yuuki** is a Chrome extension that plays and analyzes chess on [Chess.com](https://www.chess.com) using a custom, fully client-side JavaScript chess engine. Wrapped in a soft pastel UI, Yuuki provides a delightful visual experience while delivering strong, local engine analysis.
 
 ## ✨ Features
 
