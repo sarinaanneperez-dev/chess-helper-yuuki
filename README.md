@@ -11,12 +11,14 @@
 ## Engine Behavior (Under the 21-game testing)
 **Average Moves Per Game** - Pawns (7.0), Knights (5.3), Bishops (3.8), Rooks (3.4), Queen (4.2), King (4.3)   
 **In-board Behaviors Per Game** - Captures (7.5), Checks (3.8)   
+
 **What makes it human-like?**   
 - Scandinavian Defense is it's preferred opening which sents out queen early.   
 - As mentioned before, it sents out Queen early for aggressions.   
 - Among all the 20 games, it only castled once, a Long Castle.   
 - Win/Draw/Lose (14/1/6)   
-- ELO Testing = ~1700   
+- ELO Testing = ~1700
+
 **Openings it played**   
 - Scandinavian Defense Mieses Kotrc Variation (7 Games)   
 - Queens Pawn Opening Horwitz Defense (2 Games)   
