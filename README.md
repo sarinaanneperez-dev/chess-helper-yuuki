@@ -28,7 +28,7 @@
 
 *   **Extension, UI & Integration**: Developed by **Anne** 🎀
 *   **Yuuki Chess Engine**: Developed by **Eryx** ♟️ 
-    *   Repository: [github.com/yuuki-chess-engine](https://github.com/yuuki-chess-engine)
+    *   Repository: [github.com/yuuki-chess-engine](https://github.com/eryxveilen/yuuki-chess-engine)
     *   *Note: The engine utilized in this extension is the JavaScript counterpart of Eryx's original Yuuki engine.*
 
 ## ⚠️ Disclaimer
