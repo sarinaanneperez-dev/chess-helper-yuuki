@@ -8,10 +8,6 @@
 *   🖱️ **Human-like Auto-Play**: Simulates realistic mouse movements (with slight Bézier curves, random delays, and jitter) to play moves automatically on the board. Plus: Human-like decision[...]
 *   💖 **Move Visualization**: "Ask Yuuki" for the best move and see it visualized with soft dotted arrows and a cute heart on the target square.   
 
-## 🖼️ UI Showcase
-
-[![CYUvKla.md.png](https://iili.io/CYUvKla.md.png)](https://freeimage.host/i/CYUvKla)
-
 ## Engine Behavior (Under the 21-game testing)
 **Average Moves Per Game** - Pawns (7.0), Knights (5.3), Bishops (3.8), Rooks (3.4), Queen (4.2), King (4.3)   
 **In-board Behaviors Per Game** - Captures (7.5), Checks (3.8)   
@@ -30,6 +26,10 @@
 - Philidor Defense (2 Games)   
 - Center Game (2 Games)   
 - Others (8 Games with some of them still under Scandinavian with other Variation)   
+
+## 🖼️ UI Showcase
+
+![UI Showcase](src/UI%20Showcase.png)
 
 ## 📦 Installation
 
