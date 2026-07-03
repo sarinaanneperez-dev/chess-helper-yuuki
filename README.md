@@ -47,7 +47,7 @@
 
 ## 📦 Installation
 
-1.  **Download** or clone this repository to your local machine.
+1.  **Download** or clone this repository to your computer or mobile (if you use browsers that supports extensions).
 2.  Open Google Chrome and navigate to `chrome://extensions/`.
 3.  Enable **Developer mode** using the toggle in the top right corner.
 4.  Click the **Load unpacked** button in the top left.
