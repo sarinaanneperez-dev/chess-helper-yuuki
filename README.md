@@ -1,11 +1,11 @@
 # 🎀 Yuuki: Chess.com Auto-Player & Analyzer
 
-**Yuuki** is a Chrome extension that plays and analyzes chess on [Chess.com](https://www.chess.com) using a custom, fully client-side JavaScript chess engine. Wrapped in a soft pastel UI, Yuuki pro[...]
+**Yuuki** is a Chrome extension that plays and analyzes chess on [Chess.com](https://www.chess.com) using the JavaScript counterpart of Eryx/RJ's Yuuki chess engine. Wrapped in a soft pastel UI.
 
 ## ✨ Features
 
-*   🤖 **Fully Local Engine**: Powered by **Yuuki**, a custom JavaScript chess engine running entirely in a Web Worker. No external API calls, no latency, and completely offline.
-*   🖱️ **Human-like Auto-Play**: Simulates realistic mouse movements (with slight Bézier curves, random delays, and jitter) to play moves automatically on the board. Plus: Human-like decision[...]
+*   🤖 **Fully Local Engine**: Powered by **Yuuki**, a JavaScript chess engine running entirely in a Web Worker. No external API calls, no latency.
+*   🖱️ **Human-like Auto-Play**: Simulates realistic mouse movements (with slight Bézier curves, random delays, and jitter) to play moves automatically on the board. Plus: Human-like decision.
 *   💖 **Move Visualization**: "Ask Yuuki" for the best move and see it visualized with soft dotted arrows and a cute heart on the target square.   
 
 ## Engine Behavior (Under the 21-game testing)
@@ -44,7 +44,7 @@
 
 *   **The Bubble**: You will see a cute pink bow floating on your screen. You can drag it around.
 *   **The Panel**: Click the bubble to open the soft, pillowy control panel.
-*   **Auto-Play ♡**: Toggle the switch to let Yuuki take over. It will automatically detect when it's your turn, "think" for a randomized amount of time, and make the move using simulated human [...]
+*   **Auto-Play ♡**: Toggle the switch to let Yuuki take over. It will automatically detect when it's your turn, "think" for a randomized amount of time, and make the move using simulated human input.
 *   **Ask Yuuki ✨**: Click the gradient button to analyze the current position. Yuuki will draw a soft pastel arrow showing the best move without actually playing it.
 
 ## 👑 Credits & Authors
