@@ -1,12 +1,16 @@
 # 🎀 Yuuki: Chess.com Auto-Player & Analyzer
 
-**Yuuki** is a Chrome extension that plays and analyzes chess on [Chess.com](https://www.chess.com) using a custom, fully client-side JavaScript chess engine. Wrapped in a soft pastel UI, Yuuki provides a delightful visual experience while delivering strong, local engine analysis.
+**Yuuki** is a Chrome extension that plays and analyzes chess on [Chess.com](https://www.chess.com) using a custom, fully client-side JavaScript chess engine. Wrapped in a soft pastel UI, Yuuki pro[...]
 
 ## ✨ Features
 
 *   🤖 **Fully Local Engine**: Powered by **Yuuki**, a custom JavaScript chess engine running entirely in a Web Worker. No external API calls, no latency, and completely offline.
-*   🖱️ **Human-like Auto-Play**: Simulates realistic mouse movements (with slight Bézier curves, random delays, and jitter) to play moves automatically on the board. Plus: Human-like decisions, designed carefully using Eryx/RJ's Swindler Preset. Move Accuracy: 81.4% (Low for engines, Standard for humans)   
+*   🖱️ **Human-like Auto-Play**: Simulates realistic mouse movements (with slight Bézier curves, random delays, and jitter) to play moves automatically on the board. Plus: Human-like decision[...]
 *   💖 **Move Visualization**: "Ask Yuuki" for the best move and see it visualized with soft dotted arrows and a cute heart on the target square.   
+
+## 🖼️ UI Showcase
+
+[![CYUvKla.md.png](https://iili.io/CYUvKla.md.png)](https://freeimage.host/i/CYUvKla)
 
 ## Engine Behavior (Under the 21-game testing)
 **Average Moves Per Game** - Pawns (7.0), Knights (5.3), Bishops (3.8), Rooks (3.4), Queen (4.2), King (4.3)   
@@ -40,7 +44,7 @@
 
 *   **The Bubble**: You will see a cute pink bow floating on your screen. You can drag it around.
 *   **The Panel**: Click the bubble to open the soft, pillowy control panel.
-*   **Auto-Play ♡**: Toggle the switch to let Yuuki take over. It will automatically detect when it's your turn, "think" for a randomized amount of time, and make the move using simulated human pointer events.
+*   **Auto-Play ♡**: Toggle the switch to let Yuuki take over. It will automatically detect when it's your turn, "think" for a randomized amount of time, and make the move using simulated human [...]
 *   **Ask Yuuki ✨**: Click the gradient button to analyze the current position. Yuuki will draw a soft pastel arrow showing the best move without actually playing it.
 
 ## 👑 Credits & Authors
@@ -53,6 +57,6 @@
 ## ⚠️ Disclaimer
 
 **Please Read Carefully:**
-Using bots, engines, or any form of external assistance on Chess.com strictly violates their [Terms of Service and Fair Play policy](https://www.chess.com/cheating?spm=a2ty_o01.29997173.0.0.332655fbQDHrQn). Using this extension in rated or unrated games will likely result in your account being permanently banned. 
+Using bots, engines, or any form of external assistance on Chess.com strictly violates their [Terms of Service and Fair Play policy](https://www.chess.com/cheating?spm=a2ty_o01.29997173.0.0.332655[...]
 
-This project is created strictly for **educational and entertainment purposes**—specifically to explore JavaScript chess engine development, Web Worker communication, and creative UI/UX design. **Use it at your own risk.**
+This project is created strictly for **educational and entertainment purposes**—specifically to explore JavaScript chess engine development, Web Worker communication, and creative UI/UX design. [...]
