@@ -91,18 +91,8 @@ The engine favors chaotic, early-game aggression and gambits:
 *   **The Bubble ♡**: You will see a cute pink bow floating on your screen. You can drag it around, and it will slide with realistic inertia physics.
 *   **The Panel ✧**: Click the bubble to open the soft, pillowy control panel.
 *   **Auto-Play ♡**: Toggle the switch to let Yuuki take over. It will automatically detect when it's your turn, "think" for a randomized amount of time, and make the move using simulated human-like mouse movements (Bézier curves, jitter, delays).
-*   **Auto Next Game 🔄**: Toggle this to let Yuuki automatically queue the next match when a game ends, perfect for long endurance testing sessions.
+*   **Auto Next ♡**: Toggle this to let Yuuki automatically queue the next match when a game ends, perfect for long endurance testing sessions.
 *   **Ask Yuuki ✨**: Click the gradient button to analyze the current position. Yuuki will draw a soft pastel arrow with a heart showing the best move without actually playing it.
-
----
-
-## 📂 File Structure
-
-*   `manifest.json` — MV3 extension manifest.
-*   `engine.js` — Content script: board reading, FEN generation, human-like mouse execution, and local engine bridge.
-*   `yuuki-engine.js` — The full Yuuki Engine (UCI-style Web Worker).
-*   `ui.js` — Floating control panel, drag/inertia physics, and pastel move visualization.
-*   `style.css` — Soft pastel UI styling, animations, and glassmorphic effects.
 
 ---
 
@@ -118,13 +108,9 @@ The engine favors chaotic, early-game aggression and gambits:
 
 ## ⚠️ Disclaimer
 
+## ⚠️ Disclaimer
+
 **Please Read Carefully:**
 Using bots, engines, or any form of external assistance on Chess.com strictly violates their [Terms of Service and Fair Play policy](https://www.chess.com/cheating). 
 
-This project is created strictly for **educational and entertainment purposes**—specifically to explore JavaScript chess engine development, Web Worker communication, creative UI/UX design, and the technical architecture behind chess engines. It is **not intended for use** in actual Chess.com games.
-
-The creators assume no responsibility for misuse. By using this extension, you agree to use it responsibly and in compliance with Chess.com's terms.
-
----
-
-**Made with 🎀 and chess passion.**
+This project is created strictly for **educational and entertainment purposes**—specifically to explore JavaScript chess engine development, Web Worker communication, creative UI/UX design, and the boundaries of human-like telemetry simulation. Please do not use this to cheat in rated games and main account. Getting your account banned isn't our responsibility.
