@@ -16,7 +16,7 @@
 
 ## 🧠 Engine Behavior: The "Swindler" Preset
 
-Under the hood, Yuuki runs a highly tuned "Swindler" configuration designed to mimic a stubborn, trap-setting 1400-rated human player. Instead of playing perfect engine chess, it plays *human* chess.
+Under the hood, Yuuki runs a highly tuned "Swindler" configuration designed to mimic a stubborn, trap-setting human player. Instead of playing perfect engine chess, it plays *human* chess.
 
 **Configuration Highlights:**
 *   **Search Depth:** 6 (Creates natural "horizon effect" blind spots)
@@ -24,22 +24,25 @@ Under the hood, Yuuki runs a highly tuned "Swindler" configuration designed to m
 *   **Skill Level:** 20 (No artificial random blunders; flaws come organically from shallow depth and aggressive pruning)
 *   **Evaluation Weights:** High priority on `TrappedPiecePenalty` (30) and `DiscoveryThreatBonus` (25), but very low penalty for `QueenEarlyDevelopment` (10) and `KnightOnRim` (5).
 
-### 📊 Testing Stats (21 Games)
-*   **Win/Draw/Loss:** 14W / 1D / 6L (66.7% win rate)
-*   **Average Accuracy:** 81.4% (1.7% lower than opponents, yet wins through tactical chaos)
-*   **Opponent Average ELO:** ~1740 (Opponent Average Accuracy: 83.1%)
+### 📊 Testing Stats (50 Games)
+*   **Win/Draw/Loss:** 37W / 2D / 11L (74.0% win rate)
+*   **Average Accuracy:** 82.8% (0.9% lower than opponents, yet wins through tactical chaos)
+*   **Opponent Average ELO:** ~1444 (Opponent Average Accuracy: 83.7%)
+*   **Peak Rating Achieved:** 1613 (Rapid)
+*   **Time Management:** Average 6.08s per move, 0 pre-moves, average game length of 7m 52s (31 moves).
 
 ### 🎭 What makes it human-like?
-*   **Early Queen Development:** Heavily favors the Scandinavian Defense, bringing the Queen out early for aggressive, chaotic play.
-*   **Neglects King Safety:** Among all the test games, it only castled **once** (a Long Castle), perfectly mimicking a common amateur mistake.
+*   **Early Queen Development & Aggression:** Heavily favors the Scandinavian Defense (15 games) and the Blackmar Gambit (7 games), bringing pieces out early for aggressive, chaotic play.
+*   **Neglects King Safety:** Out of 50 games, it only castled **once** (a Long Castle), meaning it neglected to castle in 98% of its games—perfectly mimicking a common amateur mistake.
+*   **Piece Activity:** Averages 8.4 pawn moves, 5.2 knight moves, and 7.8 captures per game, reflecting a highly tactical and capture-heavy playstyle.
 *   **Stubbornness:** It fights in messy positions and relies on human-like traps rather than dry positional squeezes.
 
-**Openings Played:**
-*   Scandinavian Defense Mieses Kotrc Variation (7 Games)
-*   Queens Pawn Opening Horwitz Defense (2 Games)
-*   Philidor Defense (2 Games)
-*   Center Game (2 Games)
-*   Others (8 Games)
+**Popular Openings Played:**
+*   Scandinavian Defense Mieses Kotrc Variation (15 Games, 60% Win Rate)
+*   Queen's Pawn Opening Blackmar Gambit (7 Games, 86% Win Rate)
+*   Queen's Pawn Opening Horwitz Defense (3 Games, 67% Win Rate)
+*   Van 't Kruijs Opening (3 Games, 67% Win Rate, 33% Draw Rate)
+*   Philidor Defense (2 Games, 50% Win Rate)
 
 ---
 
