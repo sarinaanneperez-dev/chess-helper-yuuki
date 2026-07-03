@@ -29,6 +29,7 @@
 - Among all the 20 games, it only castled once, a Long Castle.   
 - **Win/Draw/Lose**: 14 / 1 / 6
 - **Opponent's ELO Testing**: ~1740 (Opponent's Average Accuracy: 83.1%)
+- The account used for testing **never** gets banned.
 
 **Openings it played**   
 - Scandinavian Defense Mieses Kotrc Variation (7 Games)   
